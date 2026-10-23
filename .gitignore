@@ -1,0 +1,7 @@
+# Données (non versionnées)
+*.csv
+*.pkl
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+Thumbs.db

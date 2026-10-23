@@ -1,0 +1,8 @@
+pandas
+numpy
+scipy
+scikit-learn
+matplotlib
+seaborn
+# Optionnel : embeddings de filtrage collaboratif (sinon repli sur des embeddings simplifiés)
+lightfm
