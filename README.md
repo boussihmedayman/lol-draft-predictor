@@ -15,7 +15,7 @@ Peut-on prédire quelle équipe va gagner **avant même le début de la partie**
 ## Variables construites (308 au total)
 
 - **Taux de victoire, synergies et counters** : statistiques par champion, par paire alliée (13 651 paires) et par affrontement (27 409 paires), estimées uniquement sur l'ensemble d'entraînement.
-- **Embeddings de champions** : représentation vectorielle de chaque champion (32 dimensions) issue de la co-occurrence des champions dans les équipes gagnantes ou perdantes (filtrage collaboratif, LightFM). *Les résultats présentés ici ont été obtenus avec le mode de repli du notebook (embeddings simplifiés), LightFM n'étant pas installé lors de cette exécution.*
+- **Embeddings de champions** : représentation vectorielle de chaque champion (32 dimensions) issue de la co-occurrence des champions dans les équipes gagnantes ou perdantes (filtrage collaboratif, LightFM). *Note : dans cette version du notebook, le bloc d'import de LightFM a été modifié et remplacé par un repli simplifié (embeddings basés sur la popularité).*
 - **Vecteurs de « style macro »** : un profil par champion sur 8 axes (contrôle des objectifs, siège, teamfight, frontline, dégâts, densité de contrôle, vision, pression en début de partie), calculé à partir des statistiques d'équipe et normalisé par minute. La couverture de chaque axe par une équipe mesure l'équilibre de la composition.
 
 ![Style macro par champion](docs/champion_styles.png)
